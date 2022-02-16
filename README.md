@@ -8,6 +8,12 @@ This respository is a simple project for Firebase Notification on iOS applicatio
     - 2.4) Upload certificate to Firebase ==> Open Firebase, and go to Project Settings → Cloud Messaging → APNS Certificates → upload the certificate
  3) Set up app with push notification on capability and swift code on AppDelegate file
 
+## How to fix bug on testFlight
+- Import another certifacation on firebase for production enviroment 
+- https://stackoverflow.com/questions/41140631/firebase-push-notifications-not-working-on-testflight-adhoc-release
+- https://stackoverflow.com/questions/47022963/firebase-notifications-issue-with-ios-in-testflight
+- https://stackoverflow.com/questions/24044298/why-push-notifications-is-not-working-on-testflight
+
 ## Source
 - https://medium.com/plus-minus-one/configure-firebase-push-notification-f0e9f035c81b
 - https://firebase.google.com/docs/cloud-messaging/ios/client#swift
